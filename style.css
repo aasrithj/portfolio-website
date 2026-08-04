@@ -95,15 +95,12 @@ body {
 .blurred-circle-3 {
   z-index: -5;
   position: absolute;
-  top: 50%;
-  left: 50%;
   width: 400px;
   height: 400px;
   background-color: #73B4EA;
   border-radius: 50%;
   filter: blur(45px);
-  transform: rotate(-3deg) translate(75px, 565px);
-  z-index: -5;
+  transform: rotate(-3deg) translate(37.5rem, -21rem);
 }
 
 .circles-image {
@@ -124,6 +121,31 @@ body {
   transform: translate(1050%, -350%) rotate(15deg);
   height: auto;
   z-index: -1;
+}
+
+.circles-image-3 {
+  position: absolute;
+  top: 50;
+  right: 50;
+  width: 100px;
+  transform: translate(1050%, -1390%) rotate(15deg);
+  height: auto;
+  z-index: -1;
+}
+
+.circles-image-4 {
+  position: absolute;
+  top: 50;
+  right: 50;
+  width: 100px;
+  transform: translate(70%, -470%);
+  height: auto;
+  z-index: -1;
+}
+
+.bio {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .intro-description {
