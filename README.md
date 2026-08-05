@@ -4,4 +4,4 @@ This portfolio website showcases all of my past and present achievements and wor
 
 # license
 
-All rights reserved. This project and its code are the exclusive property of Aasrith Jangala. No permissions are granted for copying, modifying, or redistributing this work.
+All rights reserved. This project and its code are the exclusive property of Aasrith Jangala. No permissions are granted for copying, modifying, or redistributing this work without the proper permission of the owner of the repository.
