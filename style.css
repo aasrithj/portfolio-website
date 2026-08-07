@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: outfit, sans-serif;
+  font-family: Outfit, sans-serif;
   background-color: #ffffff;
 }
 
@@ -111,7 +111,7 @@ body {
   top: 50;
   right: 50;
   width: 100px;
-  transform: translate(130%, 45%);
+  transform: translate(-50rem, 3rem);
   height: auto;
   z-index: -1;
 }
@@ -121,7 +121,7 @@ body {
   top: 50;
   right: 50;
   width: 100px;
-  transform: translate(1050%, -350%) rotate(15deg);
+  transform: translate(35rem, -10rem) rotate(15deg);
   height: auto;
   z-index: -1;
 }
@@ -234,6 +234,17 @@ body {
   transform: rotate(-3deg) translate(40rem, -21rem);
 }
 
+.blurred-circle-image {
+  position: absolute;
+  background-color: #73B4EA;
+  height: 420.39px;
+  width: auto;
+  border-radius: 50%;
+  filter: blur(65px);
+  transform: translate(31rem, -70rem);
+  z-index: -5;
+}
+
 .section-1-bio-paragraph {
   margin: 0;
   font-weight: 550;
@@ -246,7 +257,7 @@ body {
 .contact-buttons {
   display: flex;
   gap: 0.8rem;
-  transform: translate(9.1rem, -24.3rem);
+  transform: translate(-30rem, 3rem);
 }
 
 .github-contact-logo {
