@@ -100,7 +100,7 @@ body {
   background-color: #73B4EA;
   border-radius: 50%;
   filter: blur(45px);
-  transform: rotate(-3deg) translate(37.5rem, -21rem);
+  transform: rotate(-3deg) translate(4rem, 47rem);
 }
 
 .circles-image {
@@ -108,7 +108,7 @@ body {
   top: 50;
   right: 50;
   width: 100px;
-  transform: translate(-50rem, 3rem);
+  transform: translate(-41rem, 3.5rem);
   height: auto;
   z-index: -1;
 }
@@ -118,7 +118,7 @@ body {
   top: 50;
   right: 50;
   width: 100px;
-  transform: translate(35rem, -10rem) rotate(15deg);
+  transform: translate(27.5rem, -10rem) rotate(15deg);
   height: auto;
   z-index: -2;
 }
@@ -157,21 +157,20 @@ body {
 }
 
 .content {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .buttons-container {
-  display: inline-block;
-  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   align-items: center;
   gap: 1rem;
-  margin-left: 28rem;
-  margin-top: 35px;
-  margin-bottom: 20rem;
+  margin: 2.5rem auto 20rem auto;
 }
 
 .cta-button {
-  margin: 0 auto;
+  display: inline-block;
   padding: 15px 20px;
   background-color: #73B4EA;
   color: #ffffff;
@@ -188,18 +187,8 @@ body {
   transform: scale(1.02);
 }
 
-.cta-about {
-  text-decoration: none;
-  color: inherit;
-  font-weight: bold;
-}
-
 .cta-button-2 {
-  margin: 0 auto;
-  margin-left: 1rem;
   display: inline-block;
-  justify-content: space-between;
-  align-items: center;
   padding: 11.5px 20px;
   background-color: #ffffff;
   color: #73B4EA;
@@ -211,9 +200,15 @@ body {
 }
 
 .cta-button-2:hover {
-  transform: scale(1.02);
-  color: #ffffff;
   background-color: #73B4EA;
+  color: #ffffff;
+  transform: scale(1.02);
+}
+
+.cta-about {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
 }
 
 .cta-contact {
@@ -315,3 +310,60 @@ body {
   transform: scale(1.03);
 }
 
+/* Do NOT add any more styles code past these media queries. */
+
+@media (max-width: 652px) {
+  .header-text {
+    font-size: 4rem;
+  }
+
+  .header-text-2 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 534px) {
+  .header-text {
+    font-size: 3.5rem;
+    margin-bottom: -2rem;
+  }
+
+  .header-text-2 {
+    font-size: 3.5rem;
+  }
+
+}
+
+@media (max-width: 476px) {
+  .header-text {
+    font-size: 3rem;
+    margin-bottom: -2rem;
+  }
+
+  .header-text-2 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 417px) {
+  .header-text {
+    font-size: 2.8rem;
+    margin-bottom: -2rem;
+  }
+
+  .header-text-2 {
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 394px) {
+  .header-text {
+    margin-bottom: -0.5rem;
+  }
+}
+
+@media (max-width: 1140px) {
+  .circles-image {
+    transform: translate(-41rem, 3.5rem) scale(0.8);
+  }
+}
