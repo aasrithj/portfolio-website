@@ -138,7 +138,7 @@ body {
   top: 50;
   right: 50;
   width: 100px;
-  transform: translate(35rem, 9rem);
+  transform: translate(30rem, 9rem);
   height: auto;
   z-index: -1;
 }
@@ -187,6 +187,10 @@ body {
   transform: scale(1.02);
 }
 
+.cta-button:active {
+  transform: scale(0.99);
+}
+
 .cta-button-2 {
   display: inline-block;
   padding: 11.5px 20px;
@@ -203,6 +207,10 @@ body {
   background-color: #73B4EA;
   color: #ffffff;
   transform: scale(1.02);
+}
+
+.cta-button-2:active {
+  transform: scale(0.99);
 }
 
 .cta-about {
@@ -224,6 +232,8 @@ body {
   position: relative;
   transform: translateY(-85rem);
   margin-bottom: -140rem;
+  max-width: 0rem;
+  z-index: -10;
 }
 
 .section-1-bio {
@@ -233,6 +243,7 @@ body {
   transform: translateX(-17rem);
   gap: 2rem;
   flex-wrap: wrap;
+  margin-top: -70rem;
 }
 
 .section-1-bio-paragraph {
@@ -321,6 +332,8 @@ body {
 
 /* Do NOT add any more styles code past these media queries. */
 
+/* Max Queries */
+
 @media (max-width: 652px) {
   .header-text {
     font-size: 4rem;
@@ -400,5 +413,13 @@ body {
 @media (max-width: 1100px) {
   .blurred-circle {
     transform: translate(-30rem, -10rem);
+  }
+}
+
+/* Min Queries */
+
+@media (min-width: 1010px) {
+  .section-1-bio {
+    transform: translateX(-8rem);
   }
 }
