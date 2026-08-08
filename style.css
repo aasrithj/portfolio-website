@@ -128,7 +128,7 @@ body {
   top: 50;
   right: 50;
   width: 100px;
-  transform: translate(1050%, -1390%) rotate(15deg);
+  transform: translate(-48rem, -17rem) rotate(15deg);
   height: auto;
   z-index: -1;
 }
@@ -138,7 +138,7 @@ body {
   top: 50;
   right: 50;
   width: 100px;
-  transform: translate(70%, -470%);
+  transform: translate(35rem, 9rem);
   height: auto;
   z-index: -1;
 }
@@ -215,6 +215,15 @@ body {
   text-decoration: none;
   color: inherit;
   font-weight: bold;
+}
+
+.wave-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transform: translateY(-85rem);
+  margin-bottom: -140rem;
 }
 
 .section-1-bio {
@@ -365,5 +374,31 @@ body {
 @media (max-width: 1140px) {
   .circles-image {
     transform: translate(-41rem, 3.5rem) scale(0.8);
+  }
+}
+
+@media (max-width: 1360px) {
+  .circles-image-2 {
+    transform: translate(25rem, -10rem) rotate(15deg);
+  }
+
+  .circles-image {
+    transform: translate(-35rem, 3.5rem);
+  }
+}
+
+@media (max-width: 1180px) {
+  .circles-image-2 {
+    transform: translate(23rem, -10rem) rotate(15deg);
+  }
+
+  .circles-image {
+    transform: translate(-30rem, 3.5rem);
+  }
+}
+
+@media (max-width: 1100px) {
+  .blurred-circle {
+    transform: translate(-30rem, -10rem);
   }
 }
