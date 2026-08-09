@@ -232,7 +232,6 @@ body {
   position: relative;
   transform: translateY(-85rem);
   margin-bottom: -140rem;
-  max-width: 0rem;
   z-index: -10;
 }
 
@@ -248,6 +247,12 @@ body {
 
 .section-1-bio-paragraph {
   transform: translateX(1rem);
+  margin: 0;
+  font-weight: 550;
+  font-size: 1.2rem;
+  color: #C0C0C0;
+  max-width: 600px;
+  line-height: 1.6;
 }
 
 .section-1-bio-heading {
@@ -271,7 +276,7 @@ body {
   transform: rotate(-3deg) translate(40rem, -21rem);
 }
 
-.blurred-circle-image {
+.big-blurred-circle {
   position: absolute;
   background-color: #73B4EA;
   height: 420.39px;
@@ -280,15 +285,6 @@ body {
   filter: blur(65px);
   transform: translate(31rem, -70rem);
   z-index: -5;
-}
-
-.section-1-bio-paragraph {
-  margin: 0;
-  font-weight: 550;
-  font-size: 1.2rem;
-  color: #C0C0C0;
-  max-width: 600px;
-  line-height: 1.6;
 }
 
 .contact-buttons {
@@ -315,19 +311,29 @@ body {
   border-radius: 0.5rem;
 }
 
-.instagram-contact-logo {
-  padding: 0.1rem;
-  background-color: #D9D9D9;
+.linktree-contact-logo {
+  padding: 0.35rem;
+  background-color: #bbbbbb;
   border-radius: 0.5rem;
+  opacity: 0.5;
 }
 
-.github-contact-logo, .linkedin-contact-logo, .email-contact-logo, .instagram-contact-logo {
+.github-contact-logo, .linkedin-contact-logo, .email-contact-logo, .linktree-contact-logo {
   transition: all 0.3s ease;
 }
 
-.github-contact-logo:hover, .linkedin-contact-logo:hover,.email-contact-logo:hover, .instagram-contact-logo:hover {
+.github-contact-logo:hover, .linkedin-contact-logo:hover,.email-contact-logo:hover {
   background-color: #cccccc;
   transform: scale(1.03);
+}
+
+.linktree-contact-logo:hover {
+  background-color: #9b9b9b;
+  transform: scale(1.03);
+}
+
+.github-contact-logo:active, .linkedin-contact-logo:active, .email-contact-logo:active, .linktree-contact-logo:active {
+  transform: scale(0.99);
 }
 
 /* Do NOT add any more styles code past these media queries. */
@@ -418,8 +424,3 @@ body {
 
 /* Min Queries */
 
-@media (min-width: 1010px) {
-  .section-1-bio {
-    transform: translateX(-8rem);
-  }
-}
