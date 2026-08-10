@@ -23,6 +23,7 @@ body {
   padding: 26px;
   justify-content: center;
   text-align: center;
+  margin-top: 6rem;
 }
 
 .logo {
@@ -154,10 +155,6 @@ body {
   justify-content: center;
   align-items: center;
   color:#73B4EA;
-}
-
-.content {
-  margin-top: 4rem;
 }
 
 .buttons-container {
@@ -323,17 +320,170 @@ body {
 }
 
 .github-contact-logo:hover, .linkedin-contact-logo:hover,.email-contact-logo:hover {
-  background-color: #cccccc;
+  background-color: #c4c4c4;
   transform: scale(1.03);
 }
 
 .linktree-contact-logo:hover {
-  background-color: #9b9b9b;
+  background-color: #8b8b8b;
   transform: scale(1.03);
 }
 
 .github-contact-logo:active, .linkedin-contact-logo:active, .email-contact-logo:active, .linktree-contact-logo:active {
   transform: scale(0.99);
+}
+
+.circles-image-5 {
+  position: absolute;
+  width: 100px;
+  transform: translate(-8rem, -15rem);
+  height: auto;
+  z-index: -1;
+}
+
+.circles-image-6 {
+  position: absolute;
+  width: 100px;
+  transform: translate(65rem, -57rem) rotate(15deg);
+  height: auto;
+  z-index: -1;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.section-2-tech-stack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  background-color: #73B4EA;
+  margin-top: -2rem;
+  z-index: -5;
+  padding: 15rem;
+}
+
+.section-2-tech-stack .section-2-top-text, .section-2-bottom-text .section-2-subheading-2 {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.html-logo, .css-logo, .js-logo, .python-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.5rem;
+  background-color: #ffffff;
+  border-radius: 1.35rem;
+  transition: all 0.3s ease;
+}
+
+.html-logo-text, .css-logo-text, .js-logo-text, .python-logo-text {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #C0C0C0;
+}
+
+.html-logo:hover, .css-logo:hover, .js-logo:hover, .python-logo:hover {
+  transform: scale(1.01);
+}
+
+.section-2-top-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #C0C0C0;
+}
+
+.section-2-heading-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  color: #73B4EA;
+  font-size: 1.6rem;
+  z-index: 2;
+}
+
+.blurred-circle-4 {
+  z-index: 1;
+  position: absolute;
+  width: 700px;
+  height: 350px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  filter: blur(100px);
+  transform: translate(4rem, -17rem);
+}
+
+.circles-image-7 {
+  position: absolute;
+  width: 100px;
+  transform: translate(-8rem, -15rem);
+  height: auto;
+  z-index: 1;
+}
+
+.circles-image-8 {
+  position: absolute;
+  width: 100px;
+  transform: translate(105rem, -20rem) rotate(15deg);
+  height: auto;
+  z-index: 1;
+}
+
+.circles-image-9 {
+  position: absolute;
+  width: 100px;
+  transform: translate(-2rem, 20rem) rotate(15deg);
+  height: auto;
+  z-index: 1;
+}
+
+.circles-image-10 {
+  position: absolute;
+  width: 100px;
+  transform: translate(105rem, 20rem) rotate(15deg);
+  height: auto;
+  z-index: 1;
+}
+
+.blurred-circle-5 {
+  z-index: 1;
+  position: absolute;
+  width: 315px;
+  height: 315px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  filter: blur(100px);
+  transform: translate(-120rem, -20rem);
+}
+
+.blurred-circle-6 {
+  z-index: 1;
+  position: absolute;
+  width: 315px;
+  height: 315px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  filter: blur(100px);
+  transform: translate(8rem, -1rem);
 }
 
 /* Do NOT add any more styles code past these media queries. */
@@ -419,6 +569,13 @@ body {
 @media (max-width: 1100px) {
   .blurred-circle {
     transform: translate(-30rem, -10rem);
+  }
+}
+
+@media (max-width: 370px) {
+  .buttons-container {
+    flex-direction: column;
+    gap: 0.7rem;
   }
 }
 
