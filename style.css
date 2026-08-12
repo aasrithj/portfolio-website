@@ -309,7 +309,7 @@ body {
 }
 
 .linktree-contact-logo {
-  padding: 0.35rem;
+  padding: 0.4rem;
   background-color: #bbbbbb;
   border-radius: 0.5rem;
   opacity: 0.5;
@@ -364,7 +364,7 @@ body {
   background-color: #73B4EA;
   margin-top: -2rem;
   z-index: -5;
-  padding: 15rem;
+  padding: 4rem 0 12rem;
 }
 
 .section-2-tech-stack .section-2-top-text, .section-2-bottom-text .section-2-subheading-2 {
@@ -379,7 +379,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 0.5rem;
+  padding: 1.3rem;
   background-color: #ffffff;
   border-radius: 1.35rem;
   transition: all 0.3s ease;
@@ -403,39 +403,37 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  position: relative;
   color: #ffffff;
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   font-weight: 500;
   color: #C0C0C0;
+  width: 100%;
+  margin: 0 auto 0.5rem;
 }
 
-.section-2-heading-2 {
+.section-2-subheading {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
-  background-color: #ffffff;
-  border-radius: 1rem;
-  color: #73B4EA;
-  font-size: 1.6rem;
-  z-index: 2;
+  text-align: center;
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #e7e7e7;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.blurred-circle-4 {
-  z-index: 1;
-  position: absolute;
-  width: 700px;
-  height: 350px;
-  background-color: #ffffff;
-  border-radius: 50%;
-  filter: blur(100px);
-  transform: translate(4rem, -17rem);
+.section-2-top-text, .logo-container {
+  margin-top: 3rem;
 }
 
 .circles-image-7 {
   position: absolute;
   width: 100px;
-  transform: translate(-8rem, -15rem);
+  transform: translate(-55rem, 5rem);
   height: auto;
   z-index: 1;
 }
@@ -443,23 +441,7 @@ body {
 .circles-image-8 {
   position: absolute;
   width: 100px;
-  transform: translate(105rem, -20rem) rotate(15deg);
-  height: auto;
-  z-index: 1;
-}
-
-.circles-image-9 {
-  position: absolute;
-  width: 100px;
-  transform: translate(-2rem, 20rem) rotate(15deg);
-  height: auto;
-  z-index: 1;
-}
-
-.circles-image-10 {
-  position: absolute;
-  width: 100px;
-  transform: translate(105rem, 20rem) rotate(15deg);
+  transform: translate(50rem, 25rem) rotate(15deg);
   height: auto;
   z-index: 1;
 }
@@ -472,7 +454,7 @@ body {
   background-color: #ffffff;
   border-radius: 50%;
   filter: blur(100px);
-  transform: translate(-120rem, -20rem);
+  transform: translate(-75rem, -20rem);
 }
 
 .blurred-circle-6 {
@@ -484,6 +466,56 @@ body {
   border-radius: 50%;
   filter: blur(100px);
   transform: translate(8rem, -1rem);
+}
+
+.gear-icon {
+  position: absolute;
+  transform: translate(-70rem, 5rem) rotate(-40deg);
+  z-index: 1;
+  padding: 0.2rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+  opacity: 0.85;
+}
+
+.gear-icon-2 {
+  position: absolute;
+  transform: translate(26rem, -16rem) rotate(40deg);
+  z-index: 1;
+  padding: 0.2rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+  opacity: 0.85;
+}
+
+.section-3-first-text {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin: 7rem auto 0 7rem;
+  font-size: 1.3rem;
+}
+
+.heading-2 {
+  color: #C0C0C0;
+}
+
+.subheading {
+  color: #73B4EA;
+}
+
+.number-1-image {
+  position: relative;
+  margin: 1rem auto 0 3rem;
+  z-index: 1;
+}
+
+.nexora-text {
+  position: relative;
+  margin: -3rem auto 0 6.7rem;
+  font-size: 1rem;
+  color: #73B4EA;
+  z-index: 1;
 }
 
 /* Do NOT add any more styles code past these media queries. */
