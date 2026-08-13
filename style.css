@@ -518,6 +518,35 @@ body {
   z-index: 1;
 }
 
+.circles-image-9 {
+  position: absolute;
+  color: #73B4EA;
+  right: 50px;
+  width: 100px;
+  height: auto;
+  z-index: -1;
+}
+
+.circles-image-10 {
+  position: absolute;
+  left: 100px;
+  width: 100px;
+  transform: rotate(15deg);
+  height: auto;
+  z-index: -1;
+}
+
+.nexora-1-image {
+  border-radius: 1rem;
+}
+
+.picture-section {
+  padding: 1.5rem;
+  background-color: #ffffff;
+  width: 23.2rem;
+  border-radius: 1rem;
+}
+
 /* Do NOT add any more styles code past these media queries. */
 
 /* Max Queries */
@@ -608,6 +637,13 @@ body {
   .buttons-container {
     flex-direction: column;
     gap: 0.7rem;
+  }
+}
+
+@media (max-width: 661px) {
+  .logo-container {
+    flex-direction: column;
+    gap: 0.8rem;
   }
 }
 
