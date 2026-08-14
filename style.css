@@ -11,6 +11,11 @@ body {
   background-color: #ffffff;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 155px;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -367,7 +372,7 @@ body {
   padding: 4rem 0 12rem;
 }
 
-.section-2-tech-stack .section-2-top-text, .section-2-bottom-text .section-2-subheading-2 {
+.section-2-tech-stack .section-2-top-text, .section-2-bottom-text .subheading {
   display: block;
   justify-content: center;
   align-items: center;
@@ -419,15 +424,18 @@ body {
   align-items: center;
   text-align: center;
   position: relative;
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: #e7e7e7;
-  width: 100%;
-  margin: 0 auto;
 }
 
 .section-2-top-text, .logo-container {
   margin-top: 3rem;
+}
+
+.subheading {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #ececec;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .circles-image-7 {
@@ -500,14 +508,33 @@ body {
   color: #C0C0C0;
 }
 
-.subheading {
+.subheading-three {
   color: #73B4EA;
+}
+
+.heading-2, .subheading-three {
+  margin-bottom: 3rem;
 }
 
 .number-1-image {
   position: relative;
   margin: 1rem auto 0 3rem;
   z-index: 1;
+}
+
+.card-1-container {
+  background-color: #73B4EA;
+}
+
+.card-1-text {
+  position: relative;
+  display: flex;
+  justify-content: right;
+  background-color: #ffffff;
+}
+
+.nexora-card-text {
+  font-size: 1.5rem;
 }
 
 .nexora-text {
@@ -545,6 +572,15 @@ body {
   background-color: #ffffff;
   width: 23.2rem;
   border-radius: 1rem;
+}
+
+.code-info {
+  padding: 0.5rem;
+  background-color: #ffffff;
+}
+
+.visit-button, .view-button {
+  text-decoration: none;
 }
 
 /* Do NOT add any more styles code past these media queries. */
