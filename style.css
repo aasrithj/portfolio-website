@@ -13,7 +13,7 @@ body {
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 155px;
+  scroll-padding-top: 160px;
 }
 
 .navbar {
@@ -356,7 +356,10 @@ html {
 
 .logo-container {
   display: flex;
+  justify-content: center;
+  margin-left: 3rem;
   flex-direction: row;
+  flex: 1 1 auto;
   gap: 1rem;
 }
 
@@ -462,7 +465,7 @@ html {
   background-color: #ffffff;
   border-radius: 50%;
   filter: blur(100px);
-  transform: translate(-75rem, -20rem);
+  transform: translate(-130rem, -20rem);
 }
 
 .blurred-circle-6 {
@@ -473,12 +476,12 @@ html {
   background-color: #ffffff;
   border-radius: 50%;
   filter: blur(100px);
-  transform: translate(8rem, -1rem);
+  transform: translate(-40rem, -3rem);
 }
 
 .gear-icon {
   position: absolute;
-  transform: translate(-70rem, 5rem) rotate(-40deg);
+  transform: translate(-130rem, 5rem) rotate(-40deg);
   z-index: 1;
   padding: 0.2rem;
   background-color: #ffffff;
@@ -488,7 +491,7 @@ html {
 
 .gear-icon-2 {
   position: absolute;
-  transform: translate(26rem, -16rem) rotate(40deg);
+  transform: translate(-23rem, -16rem) rotate(40deg);
   z-index: 1;
   padding: 0.2rem;
   background-color: #ffffff;
@@ -522,19 +525,74 @@ html {
   z-index: 1;
 }
 
-.card-1-container {
+.visit-site-button {
+  padding: 1rem;
   background-color: #73B4EA;
+  border-radius: 1rem;
+  max-width: 8rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.visit-site-button:hover {
+  transform: scale(1.02);
+  background-color: #6095c0;
+}
+
+.visit-site-button:active {
+  transform: scale(1);
+}
+
+.visit-button {
+  color: #ffffff;
+  font-weight: 650;
+}
+
+.view-github-repo-button {
+  padding: 1rem;
+  background-color: #ffffff;
+  color: #73B4EA;
+  border-radius: 1rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 5px solid #73B4EA;
+}
+
+.view-github-repo-button:hover {
+  transform: scale(1.02);
+  background-color: #73B4EA;
+  color: #ffffff;
+}
+
+.view-github-repo-button:active{
+  transform: scale(1);
+}
+
+.view-button {
+  color: #73B4EA;
+  font-weight: 650;
+}
+
+.card-1-container {
+  display: flex;
+  background-color: #73B4EA;
+  padding: 6rem;
+  margin-top: 2rem;
+  border-radius: 2rem;
 }
 
 .card-1-text {
   position: relative;
   display: flex;
-  justify-content: right;
   background-color: #ffffff;
+  max-width: 20rem;
+  border-radius: 1rem;
+  padding: 1.2rem;
 }
 
 .nexora-card-text {
   font-size: 1.5rem;
+  color: #C0C0C0;
 }
 
 .nexora-text {
@@ -575,12 +633,42 @@ html {
 }
 
 .code-info {
-  padding: 0.5rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: inline-block;
   background-color: #ffffff;
+  max-width: 20rem;
+  text-align: center;
 }
 
 .visit-button, .view-button {
   text-decoration: none;
+}
+
+.languages {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 5rem;
+  border-radius: 1.5rem;
+  background-color: #ffffff;
+}
+
+.html, .css {
+  padding: 1rem;
+  background-color: #D9D9D9;
+  border-radius: 1.5rem;
+  margin: 1rem;
+}
+
+.html-techstack-text, .css-techstack-text {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
 }
 
 /* Do NOT add any more styles code past these media queries. */
