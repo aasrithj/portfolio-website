@@ -102,11 +102,11 @@ html {
   z-index: -5;
   position: absolute;
   width: 400px;
-  height: 400px;
+  height: 410px;
   background-color: #73B4EA;
   border-radius: 50%;
   filter: blur(45px);
-  transform: rotate(-3deg) translate(4rem, 47rem);
+  transform: rotate(-3deg) translate(3rem, 47.5rem);
 }
 
 .circles-image {
@@ -274,7 +274,6 @@ html {
   display: block;
   margin: 0;
   border-radius: 1rem;
-  box-shadow: 0 4p 8px rgba(0, 0, 0, 0.6);
   transform: rotate(-3deg) translate(40rem, -21rem);
 }
 
@@ -359,7 +358,7 @@ html {
   justify-content: center;
   margin-left: 3rem;
   flex-direction: row;
-  flex: 1 1 auto;
+  flex: auto;
   gap: 1rem;
 }
 
@@ -487,6 +486,8 @@ html {
   background-color: #ffffff;
   border-radius: 50%;
   opacity: 0.85;
+  width: 80px;
+  height: auto;
 }
 
 .gear-icon-2 {
@@ -497,6 +498,8 @@ html {
   background-color: #ffffff;
   border-radius: 50%;
   opacity: 0.85;
+  width: 80px;
+  height: auto;
 }
 
 .section-3-first-text {
@@ -521,7 +524,7 @@ html {
 
 .number-1-image {
   position: relative;
-  margin: 1rem auto 0 3rem;
+  margin: -3rem auto 0 3rem;
   z-index: 1;
 }
 
@@ -573,12 +576,21 @@ html {
   font-weight: 650;
 }
 
+.visit-site-button, .view-github-repo-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .card-1-container {
   display: flex;
   background-color: #73B4EA;
   padding: 6rem;
   margin-top: 2rem;
+  margin-bottom: 20rem;
   border-radius: 2rem;
+  gap: 2rem;
 }
 
 .card-1-text {
@@ -605,7 +617,7 @@ html {
 
 .circles-image-9 {
   position: absolute;
-  color: #73B4EA;
+  transform: translate(-5rem) rotate(-7deg);
   right: 50px;
   width: 100px;
   height: auto;
@@ -616,7 +628,7 @@ html {
   position: absolute;
   left: 100px;
   width: 100px;
-  transform: rotate(15deg);
+  transform: translateY(50rem) rotate(9deg);
   height: auto;
   z-index: -1;
 }
@@ -633,12 +645,15 @@ html {
 }
 
 .code-info {
+  display: flex;
   padding: 2rem;
   border-radius: 1rem;
   display: inline-block;
   background-color: #ffffff;
   max-width: 20rem;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .visit-button, .view-button {
