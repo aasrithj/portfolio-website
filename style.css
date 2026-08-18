@@ -307,7 +307,7 @@ html {
 }
 
 .email-contact-logo {
-  padding: 0.4rem;
+  padding: 0.45rem;
   background-color: #D9D9D9;
   border-radius: 0.5rem;
 }
@@ -556,6 +556,7 @@ html {
   background-color: #ffffff;
   color: #73B4EA;
   border-radius: 1rem;
+  font-weight: 650;
   transition: all 0.3s ease;
   cursor: pointer;
   border: 5px solid #73B4EA;
@@ -572,8 +573,9 @@ html {
 }
 
 .view-button {
-  color: #73B4EA;
-  font-weight: 650;
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
 }
 
 .visit-site-button, .view-github-repo-button {
@@ -591,6 +593,7 @@ html {
   margin-bottom: 20rem;
   border-radius: 2rem;
   gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .card-1-text {
@@ -654,6 +657,8 @@ html {
   text-align: center;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
+  gap: 15px;
 }
 
 .visit-button, .view-button {
@@ -686,7 +691,7 @@ html {
   color: #ffffff;
 }
 
-/* Do NOT add any more styles code past these media queries. */
+/* Do NOT add any more styling code past these media queries. */
 
 /* Max Queries */
 
