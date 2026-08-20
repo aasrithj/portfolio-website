@@ -607,7 +607,7 @@ html {
 
 .nexora-card-text {
   font-size: 1.5rem;
-  color: #C0C0C0;
+  color: #d4d4d4;
 }
 
 .nexora-text {
@@ -688,6 +688,69 @@ html {
   font-size: 1.2rem;
   font-weight: 600;
   color: #ffffff;
+}
+
+.number-2, .counsel-plus-text {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.picture-section-2 {
+  border-radius: 1rem;
+  padding: 2rem;
+  background-color: #73B4EA;
+  max-width: 28.5rem;
+}
+
+.counsel-plus-1-image {
+  border-radius: 1rem;
+}
+
+.card-2-parent {
+  background-color: #73B4EA;
+  padding: 8rem;
+}
+
+.card-2-container {
+  background-color: #ffffff;
+  margin-top: 4rem;
+  padding: 6rem;
+  border-radius: 2rem;
+  margin-bottom: 20rem;
+}
+
+.counsel-plus-card-text {
+  padding: 1rem;
+  background-color: #73B4EA;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  color: #e6e6e6;
+  max-width: 28.5rem;
+}
+
+.counsel-plus-heading {
+  color: #ffffff;
+  margin-right: 4.2rem;
+}
+
+.code-info-2 {
+  flex-flow: row-reverse wrap;
+}
+
+.circles-image-11 {
+  width: 100px;
+  height: auto;
+  transform: translate(4rem, 12rem) rotate(-9deg);
+}
+
+.circles-image-12 {
+  width: 100px;
+  height: auto;
+  transform: translate(137rem, 90rem) rotate(9deg);
+}
+
+.number-2 {
+  margin-bottom: -3rem;
 }
 
 /* Do NOT add any more styling code past these media queries. */
