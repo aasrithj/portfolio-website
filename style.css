@@ -229,6 +229,7 @@ html {
   transform: translateY(-85rem);
   margin-bottom: -140rem;
   z-index: -10;
+  flex: auto;
 }
 
 .section-1-bio {
@@ -970,11 +971,59 @@ html {
 .website-note {
   display: flex;
   justify-content: center;
+  text-align: center;
   color: #73B4EA;
   margin-bottom: 10rem;
   margin-top: 3rem;
   font-size: 23px;
   font-weight: 600;
+}
+
+.contact-heading {
+  color: #C0C0C0;
+  font-size: 57px;
+}
+
+.contact-subheading {
+  color: #A3A3A3;
+  font-weight: 640;
+  font-size: 20px;
+}
+
+.section-4-top-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: column wrap;
+}
+
+.section-4-heading {
+  margin-bottom: 1.5rem;
+}
+
+.mail-element-2 {
+  height: 90px;
+  width: auto;
+}
+
+.mail-icon-element, .mail-icon-element-2 {
+  position: relative;
+  padding: 0.85rem;
+  background-color: #73B4EA;
+  border-radius: 1rem;
+  opacity: 85%;
+}
+
+.mail-icon-element {
+  top: 5rem;
+  right: -40rem;
+  transform: rotate(-9deg);
+}
+
+.mail-icon-element-2 {
+  top: 30rem;
+  right: -115rem;
+  transform: rotate(9deg);
 }
 
 /* Do NOT add any more styling code past these media queries. */
