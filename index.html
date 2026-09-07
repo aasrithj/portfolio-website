@@ -130,6 +130,10 @@
                 <img src="./images/tech-stack-buttons/js.svg" alt="JavaScript Logo" class="javascript-logo-image" height="100" width="100">
                 <p class="js-logo-text">JavaScript</p>
             </div>
+            <div class="java-logo">
+                <img src="./images/tech-stack-buttons/java.svg" alt="Java Logo" class="java-logo-image" height="100" width="100">
+                <p class="java-logo-text">Java</p>
+            </div>
             <!-- Python Logo -->
             <div class="python-logo">
                 <img src="./images/tech-stack-buttons/python.svg" alt="Python Logo" class="python-logo-image" height="100" width="100">
@@ -298,19 +302,16 @@
             </div>
             <form action="/submit-form-endpoint" method="POST">
                 <div class="form-group">
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" name="name" placeholder="name" required class="form-input">
+                    <input type="text" id="name" name="name" placeholder="Name" class="form-input" required>
                 </div>
                 <div class="form-group">
-                    <label for="email">Your Email</label>
-                    <input type="email" id="email" name="email" placeholder="john.doe@example.com" required class="form-input">
+                    <input type="email" id="email" name="email" placeholder="john.doe@example.com" class="form-input" required>
                 </div>
                 <div class="form-group">
-                    <label for="message">Your Message</label>
-                    <textarea id="message" name="message" rows="3"placeholder="message" required class="form-textarea"></textarea>
+                    <textarea id="message" name="message" rows="3" placeholder="Your Message" class="form-textarea" required></textarea>
                 </div>
                 <div class="send-message-button">
-                    <button type="submit" class="send-button">Send →</button>
+                    <a href="#send-message" rel="noopener noreferrer nofollow" target="_blank" type="submit" class="send-button">Send →</a>
                 </div>
             </form>
         </div>
@@ -318,5 +319,6 @@
             <img src="./images/wave-2.svg" alt="Decorative Wave Element" class="section-4-wave-element" height="200" width="2600">
         </div>
      </section>
+    <script src="script.js"></script>
 </body>
 </html>
