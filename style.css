@@ -376,7 +376,7 @@ html {
   color: #ffffff;
 }
 
-.html-logo, .css-logo, .js-logo, .python-logo {
+.html-logo, .css-logo, .js-logo, .java-logo, .python-logo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -387,7 +387,7 @@ html {
   transition: all 0.3s ease;
 }
 
-.html-logo-text, .css-logo-text, .js-logo-text, .python-logo-text {
+.html-logo-text, .css-logo-text, .js-logo-text, .java-logo-text, .python-logo-text {
   display: block;
   justify-content: center;
   align-items: center;
@@ -397,7 +397,7 @@ html {
   color: #C0C0C0;
 }
 
-.html-logo:hover, .css-logo:hover, .js-logo:hover, .python-logo:hover {
+.html-logo:hover, .css-logo:hover, .js-logo:hover, .java-logo:hover, .python-logo:hover {
   transform: scale(1.01);
 }
 
@@ -1024,6 +1024,75 @@ html {
   top: 30rem;
   right: -115rem;
   transform: rotate(9deg);
+}
+
+.section-4-form-container {
+  display: grid;
+  flex: 1;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 2rem;
+  gap: 1rem;
+  background-color: #73B4EA;
+  width: 100%;
+  max-width: 600px;
+  min-height: 400px;
+  margin: 7rem auto;
+  border-radius: 1rem;
+}
+
+.contact-text {
+  position: absolute;
+  justify-content: flex-start;
+  bottom: -362rem;
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  color: #C0C0C0;
+}
+
+.send-message-button {
+  display: grid;
+  grid-column: 1 / -1; /* spans across all columns */
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.send-button {
+  text-decoration: none;
+  color: #73B4EA;
+  background-color: #ffffff;
+  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  max-width: 5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #73B4EA;
+  border: 3px solid #ffffff;
+  color: #ffffff;
+  transform: scale(1.01);
+}
+
+.send-button:active {
+  transform: scale(0.99);
+}
+
+.form-group, .form-textarea {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  color: #C0C0C0;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 2px solid #ffffff;
 }
 
 /* Do NOT add any more styling code past these media queries. */
