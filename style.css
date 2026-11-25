@@ -322,12 +322,9 @@ html, body {
 }
 
 .coffee-contact-logo {
-  padding: 0.35rem;
+  padding: 0.55rem;
   background-color: #D9D9D9;
   border-radius: 0.5rem;
-  height: 35px;
-  width: 38.5px;
-  box-sizing: content-box;
 }
 
 .github-contact-logo, .linkedin-contact-logo, .email-contact-logo, .linktree-contact-logo, .coffee-contact-logo {
@@ -1111,6 +1108,10 @@ html, body {
   background-color: #ffffff;
 }
 
+.form-input:focus, .form-textarea:focus {
+  outline: 3px solid #589fda;
+  outline-offset: -1px;
+}
 
 /* Max Queries */
 
